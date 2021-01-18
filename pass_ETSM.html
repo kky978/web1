@@ -6,7 +6,7 @@
        var password =  prompt("PASSWD 입력","")
        
            if (password == null)  {
-               alert("출입금지")
+               alert("잘못된 비밀번호입니다.")
                location  = "http://www.naver.com"         // 실패시 이동 주소       history.back();를 넣어도 됨
            }
            else  {
@@ -18,7 +18,7 @@
                location  =  goodURL
            }
            else  {
-               alert("출입금지")
+               alert("잘못된 비밀번호입니다.")
                location  = "http://www.naver.com"    // 실패시 이동 주소      history.back();를 넣어도 됨
            }
        }
